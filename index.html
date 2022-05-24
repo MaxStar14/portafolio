@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\index.css">
+    <link rel="stylesheet" href="css\header.css">
+    <link rel="stylesheet" href="css\footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Inicio</title>
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <nav class="nav-container">
+                <ul class="nav-list">
+                    <li class="nav-list-item">
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="skills.html">Habilidades</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="portafolio.html">Portafolio</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <button onclick="location.href='contacto.html'">Contacto</button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="content">
+            <div id="info-container">
+                <p style="color:#054C62;">¡Hola! Bienvenido a mi Portafolio</p>
+                <h1 style="color: white;">Mucho gusto,</h1>
+                <h1 style="color: #02607D">Soy Massiel Bonilla</h1>
+                <h1 style="color: white;">Estudiante de D. Gráfico</h1>
+                <p class="info">
+                <p style="color: #02607D;">Mis características son la responsabilidad, perseverancia, creatividad y
+                    puntualidad.</p>
+                <div id="button-container">
+                    <button id="contact-button" onclick="location.href='contacto.html'">
+                        Contacto <i class="fa-solid fa-location-arrow"></i></button>
+                    <button id="portafolio-button" onclick="location.href='portafolio.html'">
+                        Portafolio <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div style="width: 50%; display: flex; justify-content: end; align-items: center;"></div>
+            <img id="picture" src="img/yo.jpeg">
+        </section>
+        <footer id="footer">
+            <p>Copyright © 2022 R. Massiel Bonilla Salazar-Todos los derechos reservados</p>
+        </footer>
+    </div>
+</body>
+
+</html>

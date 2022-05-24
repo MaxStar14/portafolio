@@ -1,0 +1,56 @@
+.content {
+    background-color: rgb(171, 215, 239);
+    min-height: 80%;
+    width: 90%;
+    padding: 0% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#picture {
+    width: 287px;
+    height: 388px;
+    border-radius: 15px;
+    object-fit: contain;
+    box-shadow: 1rem +1rem #4A8BAF;
+}
+
+.info {
+    width: 60%;
+    color: rgb(65, 126, 206);
+}
+
+#info-container {
+    width: 50%;
+}
+
+#info-container>* {
+    margin: 20px 0;
+}
+
+#info-container h1 {
+    font-size: 40px;
+}
+
+#button-container>* {
+    margin: 20px 20px 20px 0;
+}
+
+#button-container button {
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#contact-button {
+    background-color: #054C62;
+    color: white;
+    border: none;
+}
+
+#portafolio-button {
+    background-color: #054C62;
+    color: white;
+    border: white;
+}
